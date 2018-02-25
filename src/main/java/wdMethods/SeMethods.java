@@ -83,7 +83,7 @@ public class SeMethods extends Reporter implements WdMethods{
 	}
 
 	public void startApp(String browser) {
-		startApp(browser, false);
+		startApp(browser, true);
 	}
 
 	public WebElement locateElement(String locator, String locValue) {
