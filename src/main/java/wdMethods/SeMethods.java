@@ -79,6 +79,7 @@ public class SeMethods extends Reporter implements WdMethods{
 			reportStep("The browser: "+browser+" launched successfully", "PASS");
 		} catch (WebDriverException e) {			
 			reportStep("The browser: "+browser+" could not be launched", "FAIL");
+			//it's in WebDriverException
 		}
 	}
 
