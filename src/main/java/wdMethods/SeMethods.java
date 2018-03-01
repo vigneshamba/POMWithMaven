@@ -84,7 +84,6 @@ public class SeMethods extends Reporter implements WdMethods{
 	}
 
 	public void startApp(String browser) {
-		startApp(browser, true);//Launch FireFox
 		startApp(browser, false);
 	}
 
